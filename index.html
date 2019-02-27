@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>CrystalsCollector Game</title>
+    <title>BoxCollector Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
@@ -12,10 +12,10 @@
 </head>
 
 <body>
-    <div><img scr="../images/back.jpg"></div>
+    <br>
     <header>
         <div class=header-div>
-            <h1>CrystalsCollector Game!</h1>
+            <h1>BoxCollector Game!</h1>
         </div>
     </header>
     <br>
@@ -23,32 +23,38 @@
         <section class="intstruct-text">
             <ul>
                 <li>You will be given a random number at the start of the game.</li>
-                <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points
+                <li>There are four boxes below. By clicking on a box you will add a specific amount of points
                     to your total score.</li>
                 <li>You win the game by matching your total score to random number, you lose the game if your total
                     score goes above the random number.</li>
-                <li>The value of each crystal is hidden from you until you click on it.</li>
-                <li>Each time when the game starts, the game will change the values of each crystal.</li>
+                <li>The value of each box is hidden from you until you click on it.</li>
+                <li>Each time when the game starts, the game will change the values of each box.</li>
             </ul>
         </section>
     </div>
     <br>
-    <div class="compInfo">Calculate this number:</div>
-    <div class="compGuess-text"></div>
+    <div class = "comp-text-box">
+        <div class="compInfo">Calculate this number:</div>
+        <div class="compGuess-text"></div>
+    </div>
     <br>
     <div class="lossesWin-box">
-        Wins and Losses below
-        <p id="win-text">0</p>
-        <p id="losses-text">0</p>
+        <p id="win-text">Wins: 0</p>
+        <p id="losses-text">Losses: 0</p>
     </div>
+    <br>
     <div class=img-div>
-        <img class="img1" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png">
-        <img class="img2" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png">
-        <img class="img3" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png">
-        <img class="img4" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png">
+        <img class="img1" src="../unit-4-game/assets/images/question-box.jpg">
+        <img class="img2" src="../unit-4-game/assets/images/question-box.jpg">
+        <img class="img3" src="../unit-4-game/assets/images/question-box.jpg">
+        <img class="img4" src="../unit-4-game/assets/images/question-box.jpg">
     </div>
-    <p>Your total score is:</p>
-    <div class="userTotal"></div>
+    <br>
+    <div class = "score-box">
+        <p class = "your-title">Your total score is:</p>
+        <div class="userTotal">0</div>
+    </div>
+    
 
 
     <script src="assets/javascript/game.js"></script>

@@ -3,17 +3,7 @@ body {
     height: 100%;
     margin: 0 auto;
     font-family: Arial, sans-serif;
-    /* filter: blur(8px); */
-}
-
-.backimage {
-    background-image: url("../images/back.jpg");
-    /* height: 100%;
-    width: 100%;
-    margin: 0 auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
+    background-color: #DBDBDB;
 }
 
 .header-div {
@@ -63,14 +53,39 @@ ul {
     list-style-type: square;
 }
 
+.comp-text-box{
+    width: 180px;
+    background-color: grey;
+    border-radius: 15%;
+    z-index: 1;
+    margin: 0 auto;
+}
+
 .compInfo {
-    width: 500px;
+    padding: 10px;
+    width: 150px;
+    font-size: 15px;
     text-align: center;
+    background-color: aquamarine;
+    border-radius: 15%;
+    opacity: 0.55;
+    z-index: 2;
+    margin: 0 auto;
+    color: black;
+    margin-bottom: 2px;
 }
 
 .compGuess-text {
-    width: 500px;
+    padding: 10px;
+    width: 150px;
+    font-size: 15px;
     text-align: center;
+    background-color: aquamarine;
+    border-radius: 15%;
+    opacity: 0.55;
+    z-index: 2;
+    margin: 0 auto;
+    color: black;
 }
 
 .lossesWin-box {
@@ -87,22 +102,64 @@ ul {
     position: center;
     width: 40px;
     height: 40px;
+    border: dotted;
+    border-color: grey;
 }
 
 .img2 {
     position: center;
     width: 40px;
     height: 40px;
+    border: dotted;
+    border-color: grey;
 }
 
 .img3 {
     position: center;
     width: 40px;
     height: 40px;
+    border: dotted;
+    border-color: grey;
 }
 
 .img4 {
     position: center;
     width: 40px;
     height: 40px;
+    border: dotted;
+    border-color: grey;
+}
+
+.score-box {
+    width: 180px;
+    background-color: grey;
+    border-radius: 15%;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.your-title {
+    padding: 10px;
+    width: 150px;
+    font-size: 15px;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 15%;
+    opacity: 0.55;
+    z-index: 2;
+    margin: 0 auto;
+    color: black;
+}
+
+.userTotal {
+    padding: 10px;
+    width: 150px;
+    font-size: 15px;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 15%;
+    opacity: 0.55;
+    z-index: 2;
+    margin: 0 auto;
+    color: black;
 }
