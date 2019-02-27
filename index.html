@@ -1,15 +1,57 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>CrystalsCollector Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="reset.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-    <script src="game.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
 </head>
+
 <body>
-    
+    <div><img scr="../images/back.jpg"></div>
+    <header>
+        <div class=header-div>
+            <h1>CrystalsCollector Game!</h1>
+        </div>
+    </header>
+    <br>
+    <div class="instruct-box">
+        <section class="intstruct-text">
+            <ul>
+                <li>You will be given a random number at the start of the game.</li>
+                <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points
+                    to your total score.</li>
+                <li>You win the game by matching your total score to random number, you lose the game if your total
+                    score goes above the random number.</li>
+                <li>The value of each crystal is hidden from you until you click on it.</li>
+                <li>Each time when the game starts, the game will change the values of each crystal.</li>
+            </ul>
+        </section>
+    </div>
+    <br>
+    <div class="compInfo">Calculate this number:</div>
+    <div class="compGuess-text"></div>
+    <br>
+    <div class="lossesWin-box">
+        Wins and Losses below
+        <p id="win-text">0</p>
+        <p id="losses-text">0</p>
+    </div>
+    <div class=img-div>
+        <img class="img1" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png">
+        <img class="img2" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png">
+        <img class="img3" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png">
+        <img class="img4" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png">
+    </div>
+    <p>Your total score is:</p>
+    <div class="userTotal"></div>
+
+
+    <script src="assets/javascript/game.js"></script>
 </body>
+
 </html>
